@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "3148766868",
+    "project_id": "vinnikov-52b6a",
+    "storage_bucket": "vinnikov-52b6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3148766868:android:2bfc4a771eec668169de81",
+        "android_client_info": {
+          "package_name": "com.example.vinnikov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3148766868-lq7m388grjrmk4ktk33r6to3o2b9nnnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vinnikov",
+            "certificate_hash": "01e39568b596bc4fec30a43a78401c09b9ed164d"
+          }
+        },
+        {
+          "client_id": "3148766868-doc8hvgkmauorn6jjoohhjsnve89jggj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUYIntFHB4kzwfffGqsNoNZ2PmNRdjLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3148766868-doc8hvgkmauorn6jjoohhjsnve89jggj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

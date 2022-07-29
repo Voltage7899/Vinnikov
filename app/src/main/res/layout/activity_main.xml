@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper">
+
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="580dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/phone_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:ems="10"
+            android:hint="Телефон"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/pass_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Пароль"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/modeUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Юзер"
+                android:visibility="gone"
+                android:textColor="#2000ff" />
+            <TextView
+                android:id="@+id/modeAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="#2000ff"
+                android:text="Админ"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sign_sign"
+            android:layout_gravity="center"
+            android:layout_width="170dp"
+            android:background="#2000ff"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:text="Войти" />
+        <EditText
+            android:id="@+id/nameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:ems="10"
+            android:hint="Имя"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/phoneReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:ems="10"
+            android:hint="Телефон"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/passReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Пароль"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"/>
+
+
+
+        <Button
+            android:id="@+id/registration"
+            android:layout_width="170dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#2000ff"
+            android:text="Регистрация"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
